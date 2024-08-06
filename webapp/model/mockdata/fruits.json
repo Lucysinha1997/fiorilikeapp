@@ -1,0 +1,173 @@
+{
+  "fruits": [{
+        "name": "Apple",
+        "color": "Red",
+        "taste": "neutral",
+        "size": "medium",
+        "price": 124,
+        "curr": "INR",
+        "healthBenefits": "good source of vitamin",
+        "season": "spring",
+        "image": "https://www.shutterstock.com/shutterstock/photos/2341320361/display_1500/stock-photo-lots-of-red-apples-tasty-and-juicy-background-of-apples-high-quality-photo-2341320361.jpg"
+  },
+        {
+        "name": "Orange",
+        "color": "yellow",
+        "taste": "citrus",
+        "size": "small",
+        "price": 148,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN C",
+        "season": "winter",
+        "image": "https://img.freepik.com/free-psd/orange-fruit-isolated-transparent-background_191095-14952.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1719705600&semt=sph"
+  },
+     {
+        "name": "Watermelon",
+        "color": "yellow",
+        "taste": "neutral",
+        "size": "large",
+        "price": 200,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN K",
+        "season": "summer",
+        "image": "https://cdn.britannica.com/99/143599-050-C3289491/Watermelon.jpg?w=400&h=300&c=crop"
+     },
+    {
+        "name": "Strawberry",
+        "color": "Red",
+        "taste": "neutral",
+        "size": "small",
+        "price": 600,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN c",
+        "season": "winter",
+        "image": "https://www.tmf.or.tz/wp-content/uploads/2019/12/p11.jpg"
+    },
+    {
+        "name": "Kiwi",
+        "color": "Green",
+        "taste": "citurs",
+        "size": "small",
+        "price": 800,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN C+E",
+        "season": "Rainy",
+        "image": "https://cdn.britannica.com/45/126445-050-4C0FA9F6/Kiwi-fruit.jpg?w=400&h=300&c=crop"
+ 
+    },
+    {
+        "name": "blue berry",
+        "color": "blue",
+        "taste": "berries",
+        "size": "small",
+        "price": 800,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN C+E",
+        "season": "Rainy",
+        "image": "https://blueberry.org/wp-content/uploads/2021/04/Black-and-White-Photo-of-Highbush-Blueberries-in-1922-scaled-1440x1208.jpg"
+ 
+    },
+    {
+        "name": "Red berry",
+        "color": "Red",
+        "taste": "berries",
+        "size": "small",
+        "price": 800,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN C+E",
+        "season": "Rainy",
+        "image": "https://www.bhg.com/thmb/6eWo1P77c8Kwoc1HCBBCaFd179U=/550x0/filters:no_upscale():strip_icc()/Pink-Lemonade-2-09bb240b26dc4c65804868719c4194f1.jpg"
+ 
+    },
+    {
+        "name": "Black berry",
+        "color": "Black",
+        "taste": "berries",
+        "size": "small",
+        "price": 800,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN C+E",
+        "season": "Rainy",
+        "image": "https://tngaustin.com/wp-content/uploads/blackberry.jpg"
+ 
+    },
+    {
+        "name": "Banana",
+        "color": "yellow",
+        "taste": "Alkaline",
+        "size": "medium",
+        "price": 90,
+        "curr": "INR",
+        "healthBenefits": "VITAMIN K",
+        "season": "winter",
+        "image": "https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTYSv-kmEqeAj6NRr09yPqvo3HGVdDsuw9ZGKRfpl9EtI6zttIJyRv7WSCMK_4eAsrm"
+  },
+  {
+    "name": "Pineapple",
+    "color": "yellow",
+    "taste": "citrus",
+    "size": "medium",
+    "price": 100,
+    "curr": "INR",
+    "healthBenefits": "VITAMIN K",
+    "season": "winter",
+    "image": "https://www.la-botanicalart.co.uk/wp-content/uploads/2022/10/Pineapple-print.jpg"
+  
+  }
+],
+"supplier": [{
+        "name": "A S furits trivantram",
+        "sinceWhen": "2018",
+        "contactNo": "+91234566788",
+        "person": "xyz mkl",
+        "noOfStores": 10,
+        "speciality": [ "grapes", "apple", "Banana"],
+        "city": "Thiruvananthapuram"
+    },
+    {
+        "name": "Bharat Enp",
+        "sinceWhen": "2020",
+        "contactNo":"+9126737684",
+        "person": "Bharat Kumar",
+        "noOfStores": 5,
+        "speciality": ["Mango"],
+        "city": "Kurnool"
+    },
+    {
+        "name": "NTON Trades private limited",
+        "sinceWhen": "2016",
+        "contactNo": "+918746756336",
+        "person": "K. Balaji",
+        "noOfStores": 26,
+        "speciality": ["sapota", "guava", "Mango"],
+        "city": "Chennai"
+    }
+],
+"cities": [
+        {
+        "name": "Bhagalpur",
+        "state": "Bihar",
+        "population": 234456,
+        "famousFor": "Litchi"
+        },
+    {
+        "name": "Kurnool",
+        "state": "Andhra Pradesh",
+        "population": 234567,
+        "famousFor": "mango"
+    },
+    {
+        "name": "Nagpur",
+        "state": "Maharashtra",
+        "population": 78647505,
+        "famousFor": "orange"
+    },
+    {
+        "name": "chennai",
+        "state": "Tamil Nadu",
+        "population": 236475,
+        "famousFor": "sapota"
+    }
+]
+ 
+}

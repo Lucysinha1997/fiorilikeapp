@@ -1,0 +1,15 @@
+{
+    "welcomFile": "webapp/index.html",
+    "authenticationMethod": "none",
+    "routes":[
+        {
+            "authenticationType": "none",
+            "source": "^/sap/opu/odata/sap/ZJULY_2024_SRV/"
+            
+        },{
+        "source": "^(.*)$",
+        "target": "$1",
+        "service": "html5-apps-repo-rt"
+        }
+    ]
+}

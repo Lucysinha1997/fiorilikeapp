@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+          controllerName="emc.hr.payroll.controller.App">
+          <!-- Parent for other views...this wil be our container controll which will be parent for other view,
+          there are diffrent types of container -->
+          <SplitApp id="appCon" />
+          </mvc:View>

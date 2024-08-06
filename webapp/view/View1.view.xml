@@ -1,0 +1,46 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="emc.hr.payroll.controller.View1">
+          <Page id="_IDGenPage1" title="{i18n>XTIT_VIEW1}">
+            <headerContent>
+                <Button id="_IDGenButton1" icon="sap-icon://action" press="onNext"/>
+            </headerContent>
+            <content>
+            <SearchField id="idSF" search="onSearch" liveChange="onSearch"/>
+            <List id="idLST" mode="SingleSelectMaster" delete="onDelete" itemPress="onNavnext" growingThreshold="20" growing="true" selectionChange="onFruitSelect" items="{               path: '/ProductSet'              }">
+             <headerToolbar>
+                <Toolbar>
+                  <ToolbarSpacer/>
+                    <Button icon="sap-icon://delete" press="onDeleteItems"/>
+                  
+                </Toolbar>
+             </headerToolbar>
+            <items>
+              <ObjectListItem type="Navigation" intro="{NAME}" title="{PRODUCT_ID}" number="{PRICE}" numberUnit="{CURRENCY_CODE}" icon="{sap-icon://product}">
+              <attributes>
+                <ObjectAttribute title="type" text="{CATEGORY}"/>
+              </attributes>
+                    
+                    
+                    </ObjectListItem>
+                <!-- <DisplayListItem id="_IDGenDisplayListItem1" label="{name}"></DisplayListItem> -->
+            </items>
+            </List>
+            
+            </content>
+            <footer>
+            
+            <Toolbar width="100%" id="toolbar2">
+            
+                <content>
+            
+                    <ToolbarSpacer id="spacer1"/>
+            
+                    <Button press="onAdd" xmlns="sap.m" id="button1" activeIcon="sap-icon://accidental-leave" icon="sap-icon://accidental-leave" tooltip="Add New Product"/>
+            
+                </content>
+            
+            </Toolbar>
+            
+            </footer>
+          <!-- <Button id="_IDGenButton1" text="Go to " icon="sap-icon://arrow-right" press="onNext" /> -->
+          </Page>
+</mvc:View>
